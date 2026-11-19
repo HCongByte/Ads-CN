@@ -11,6 +11,7 @@ let package = Package(
             name: "Ads-CN",
             targets: ["Ads-CN"]
         ),
+        .library(name: "Live", targets: ["BUAdLive"]),
         .library(name: "Mediation", targets: ["Ads-CN", "CSJMediation"])
     ],
     targets: [
@@ -21,7 +22,7 @@ let package = Package(
         .binaryTarget(name: "CSJMediation", url: "https://sf3-fe-tos.pglstatp-toutiao.com/obj/csj-sdk-static/Public/CSJMediation/7.9.0.4/CSJMediation.zip", checksum: "1db5ba9447149c8e248085ae5ca897c8ad57edcacbff953b1d93bf7749a6fb73"),
         .target(
             name: "Ads-CN",
-            dependencies: ["BUAdSDK", "BUAdLive"],
+            dependencies: ["BUAdSDK"],
             resources: [.copy("CSJAdSDK.bundle")],
             linkerSettings: [
                 .linkedFramework("UIKit"),
