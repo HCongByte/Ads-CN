@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(name: "BUAdSDK", url: "https://sf3-fe-tos.pglstatp-toutiao.com/obj/csj-sdk-static/Public/BUAdSDK/7.9.0.4/BUAdSDK.zip", checksum: "3dba8fc0512947759273461f06f8ce0a8e20197f6dede2580e0dceb42562c397"),
         .binaryTarget(name: "BUAdLive", url: "https://sf3-fe-tos.pglstatp-toutiao.com/obj/csj-sdk-static/Public/BUAdLive/7.9.0.4/BUAdLive.zip", checksum: "5f5d68a67a929bb9b5f335fc18610b5307a094de5ce448133e2918460211a2a8"),
         .binaryTarget(name: "CSJMediation", url: "https://sf3-fe-tos.pglstatp-toutiao.com/obj/csj-sdk-static/Public/CSJMediation/7.9.0.4/CSJMediation.zip", checksum: "1db5ba9447149c8e248085ae5ca897c8ad57edcacbff953b1d93bf7749a6fb73"),
-        .binaryTarget(name: "LivePullLite", url: "https://lf3-static.bytednsdoc.com/obj/eden-cn/nuvjbvo/csj_ad_sdk_static/BUTTSDK/LivePullLite.xcframework.zip", checksum: "4af8eeb324562c04ab6959ddb211c705502c28869ad0b7baf160d05a02ec28d9"),
+        .binaryTarget(name: "LivePullLite", url: "https://lf3-static.bytednsdoc.com/obj/eden-cn/nuvjbvo/csj_ad_sdk_static/BUTTSDK/1.48.2.3-premium/LivePullLite.xcframework.zip", checksum: "4af8eeb324562c04ab6959ddb211c705502c28869ad0b7baf160d05a02ec28d9"),
         .binaryTarget(name: "TTFFmpeg", url: "https://lf3-static.bytednsdoc.com/obj/eden-cn/nuvjbvo/csj_ad_sdk_static/BUTTSDK/TTFFmpeg.xcframework.zip", checksum: "38dff0191d12717e065bf73af9eaa412fa7b4e9893b4b23cf8a39064477d0d55"),
         .binaryTarget(name: "VolcBaseLog", url: "https://lf3-static.bytednsdoc.com/obj/eden-cn/nuvjbvo/csj_ad_sdk_static/BUTTSDK/VolcBaseLog.xcframework.zip", checksum: "5474ecb9b126e033075356a1fb01d215b647f503d1eba3d64bcd59c8508be984"),
         .target(
