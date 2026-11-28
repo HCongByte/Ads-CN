@@ -22,6 +22,7 @@ Sources/
 Scripts/fetch-sdk.sh                   下载并校验 SDK.zip（SHA-256 内置）
 ```
 
+
 ## 2. Podspec → SPM 映射
 
 | 原 podspec | 本包 product | 说明 |
